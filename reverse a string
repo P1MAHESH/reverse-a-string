@@ -1,0 +1,13 @@
+class Solution():
+    def reverseWords(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        word=s.split()
+        n=word[::-1]
+        f=' '.join(n)
+        return f
+d=Solution()
+d.reverseWords("the sky is blue")
+        
